@@ -1,6 +1,6 @@
-# spa-template
+# react-template
 
-Simple single page app template containing: webpack, babel, and jest. Starting point for future single page apps (Anguale, Resct, Vue etc) apps.
+Simple react template containing: webpack, babel, and jest. Starting point for future React apps.
 
 ## This app might not be upto date
 
