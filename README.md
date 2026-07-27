@@ -4,21 +4,22 @@ Simple react template containing: webpack, babel, and jest. Starting point for f
 
 I have written plugins to reduce time spent on configuring the app and social media. You simply need to edit `site-config.json` to change title, description, colors, etc, in index.html, 404.html, and manifest. You need to edit `logo-square.svg` to change all the images used in the app for social sharing and icons.
 
-## This app might not be upto date
+## This app might not be up to date
 
-I update this project everytime I use it, not everytime there is a new update to a supporting library. It will work out of the box, but it might be a bit behind.
+I update this project every time I use it, not every time there is a new update to a supporting library. It will work out of the box, but it might be a bit behind.
 
 ## instructions
 
-| code               | description                                                                |
-| ------------------ | -------------------------------------------------------------------------- |
-| `npm install`      | install dependencies                                                       |
-| `nvm use`          | Use node version specified in projects .nvmrc file. (NVM needs installing) |
-| `nvm run test`     | run jest tests                                                             |
-| `nvm run serve`    | serve site in development mode                                             |
-| `nvm run clean`    | clean project with prettier                                                |
-| `nvm run validate` | validate code with typescript compiler                                     |
-| `nvm run build`    | validate with prettier and TSC && build bundled site                       |
+| code                | description                                                                |
+| ------------------- | -------------------------------------------------------------------------- |
+| `npm install`       | install dependencies                                                       |
+| `nvm use`           | Use node version specified in projects .nvmrc file. (NVM needs installing) |
+| `nvm run test`      | run jest tests                                                             |
+| `nvm run serveDev`  | serve site in development mode (vite), unzipped with livereload (vite)     |
+| `nvm run serveProd` | serve site in production mode (vite), zipped no reload                     |
+| `nvm run clean`     | clean project with prettier                                                |
+| `nvm run validate`  | validate code with typescript & prettier compiler                          |
+| `nvm run build`     | Build site, validates files before doing so                                |
 
 ## General Instructions
 
