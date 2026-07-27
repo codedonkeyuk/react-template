@@ -1,14 +1,14 @@
 {
-  "name": "3d-dice",
+  "name": "react-template",
   "version": "0.0.1",
   "description": "A 3D dice generator that allows you to customise dice. You can then bookmark, and roll it whenever you like.",
-  "homepage": "https://github.com/codedonkeyuk/3d-dice#readme",
+  "homepage": "https://github.com/codedonkeyuk/react-template#readme",
   "bugs": {
-    "url": "https://github.com/codedonkeyuk/3d-dice/issues"
+    "url": "https://github.com/codedonkeyuk/react-templateissues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.comcodedonkeyuk/3d-dice.git"
+    "url": "git+https://github.comcodedonkeyuk/react-template.git"
   },
   "license": "MIT",
   "author": "Leigh",
