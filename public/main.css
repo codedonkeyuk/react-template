@@ -1,4 +1,16 @@
+:root {
+  --main-background: white;
+  --main-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-background: black;
+    --main-color: white;
+  }
+}
+
 body {
-  background: black;
-  color: white;
+  background: var(--main-background);
+  color: var(--main-color);
 }

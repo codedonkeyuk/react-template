@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderOne = styled.h1`
-  color: yellow;
+  color: green;
 `;
 
 export default function App() {
