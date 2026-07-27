@@ -1,12 +1,12 @@
 # react-template
 
-Simple react template containing: webpack, babel, and jest. Starting point for future React apps.
+Simple react / vite template containing. Starting point for future React apps.
 
-I have written plugins to reduce time spent on configuring the app and social media. You simply need to edit `site-config.json` to change title, description, colors, etc, in index.html, 404.html, and manifest. You need to edit `logo-square.svg` to change all the images used in the app for social sharing and icons.
+Vite has been configured to generate icons off a single svg file. This svg file is also used for social media image. You need to edit [./public/logo-square.svg](./public/logo-square.svg) to change all the images used in the app for social sharing and icons.
 
 ## This app might not be up to date
 
-I update this project every time I use it, not every time there is a new update to a supporting library. It will work out of the box, but it might be a bit behind.
+I update this project every time I use it, not every time there is a new update to a supporting library. So of you check it out, you might have to deal with some updates.
 
 ## instructions
 
