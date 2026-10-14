@@ -1,6 +1,6 @@
 {
   "name": "react-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A 3D dice generator that allows you to customise dice. You can then bookmark, and roll it whenever you like.",
   "homepage": "https://github.com/codedonkeyuk/react-template#readme",
   "bugs": {
@@ -46,7 +46,6 @@
     "prettier": "3.9.6",
     "typescript": "^7.0.2",
     "vite": "^8.1.5",
-    "vite-plugin-html": "^3.2.2",
     "vite-plugin-pwa": "^1.3.0",
     "vitest": "^4.1.10"
   },
